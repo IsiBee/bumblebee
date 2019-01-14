@@ -1,0 +1,184 @@
+div {
+	margin: 0;
+	padding: 0;
+}
+
+div div{
+	background: #FFF933;
+	position: relative;
+}
+
+.bumblebee {
+	height: 400px;
+	width: 50px;
+	margin: 100px auto;
+}
+
+.head {
+	width: 100px;
+	height: 100px;
+	top: 135px;
+
+	border-radius: 110px;
+}
+
+.l_eye, .r_eye {
+	background: #FFF;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 35px;
+
+	border-radius: 10px;
+}
+
+.l_eye{
+	left: 60px;
+}
+
+.r_eye {
+	right: 40px;
+}
+
+.l_eyeball, .r_eyeball {
+	background: #B9B2B2;
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	top: 40px;
+
+	border-radius: 100px;
+}
+
+.l_eyeball {
+	left: 67px;
+	top: 43px;
+}
+
+.r_eyeball{
+	right: 42px;
+	top: 43px;
+}
+
+.mouth {
+	background: #F691CD;
+	width: 20px;
+	height: 10px;
+	position: absolute;
+	right: 20px;
+	top: 80px;
+	opacity: .8;
+	transform: rotate(-15deg);
+
+	border-radius: 0 0 60px 60px;
+}
+
+.l_ant, .r_ant {
+	width: 6px;
+	height: 50px;
+	position: absolute;
+	top: -34px;
+	border-radius: 3px;
+}
+
+.l_ant {
+	left: 60px;
+	transform: rotate(10deg);
+}
+
+.r_ant {
+	right: 55px;
+	transform: rotate(-10deg);
+}
+
+.l_antball, .r_antball{
+	background: #B9B2B2;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: -35px;
+
+	border-radius: 100px;
+}
+
+.l_antball {
+	left: 63px;
+}
+
+.r_antball {
+	right: 55px;
+}
+
+
+.body_one {
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 150px;
+	top: 85px;
+	transform: rotate(-90deg);
+
+	border-radius: 100px 100px 0 0;
+}
+
+.body_two {
+	background: #D3D3D3;
+	width: 60px;
+	height: 100px;
+	position: absolute;
+	right: 110px;
+	top: 60px;
+}
+
+.body_three {
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	right: 55px;
+	top: 60px;
+}
+
+.wing_one, .wing_two {
+	background: #D3D3D3;
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	top: -25px;
+	opacity: .4;
+
+	border-radius: 100px 100px 0 0;
+}
+
+.wing_one {
+	right: 100px;
+	transform: rotate(25deg);
+}
+
+.wing_two {
+	right: 128px;
+	transform: rotate(-25deg);
+}
+
+.stinger {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 185px;
+	top: 85px;
+	transform: rotate(45deg);
+}
+
+
+.wing_two:hover {
+	transform: translate(10px, -10px);
+}
+
+.stinger:hover {
+	transform: rotate(45deg) translate(-10px, 5px)
+
+}
+
+
+
+
+
